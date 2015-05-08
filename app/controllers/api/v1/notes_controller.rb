@@ -1,4 +1,4 @@
-class API::V1::NotesController < API::V1::APIController
+class API::V1::NotesController < API::APIController
   before_action :authorize_api_key
 
   def index
